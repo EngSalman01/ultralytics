@@ -222,7 +222,6 @@ if __name__ == "__main__":
 
     # Perform object detection and obtain the output image
     output_image = detection.main()
-
     # Display the output image in a window
     cv2.namedWindow("Output", cv2.WINDOW_NORMAL)
     cv2.imshow("Output", output_image)
